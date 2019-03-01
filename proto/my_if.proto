@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+// サンプルサービス
+service MyGrpc {
+    // なにかを受け取るRPC
+    rpc GetSomething (MyReq) returns (MyResp) {}
+}
+
+message MyReq {
+    int32 int_param = 1;
+    string str_param = 2;
+}
+
+message MyResp {
+    int32 status = 1;
+    string message = 2;
+}
