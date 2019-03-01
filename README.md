@@ -1,2 +1,2 @@
 # grpc_practice
-do grpc in python
+do [grpc tutorial for python](https://grpc.io/docs/tutorials/basic/python.html)
